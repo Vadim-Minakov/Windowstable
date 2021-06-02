@@ -1,0 +1,78 @@
+﻿<Application x:Class="Windows_table.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Windows_table"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
+
+<Style TargetType="Grid" >
+    <Setter Property="Background" Value="#FFE4EC9B"></Setter>
+</Style>
+<Style TargetType="DataGrid">
+    <Setter Property="Background" Value="#FF86E871"></Setter>
+    <Setter Property="FontFamily" Value="Calibri"></Setter>
+    <Setter Property="Foreground" Value="Brown"></Setter>
+    <Setter Property="FontSize" Value="14"/>
+</Style>
+<Style TargetType="DataGridRow">
+    <Setter Property="Background" Value="#FF86E871"></Setter>
+    <Setter Property="FontFamily" Value="Calibri"></Setter>
+    <Setter Property="Foreground" Value="Brown"></Setter>
+    <Setter Property="FontSize" Value="14"/>
+</Style>
+<Style TargetType="DatePicker" >
+    <Setter Property="Background" Value="#FF86E871"></Setter>
+    <Setter Property="FontFamily" Value="Calibri"></Setter>
+    <Setter Property="Foreground" Value="Brown"></Setter>
+    <Setter Property="FontSize" Value="18"/>
+    <Setter Property="Height" Value="50"/>
+    <Setter Property="Width" Value="160"/>
+    <Setter Property="VerticalContentAlignment" Value="Center"/>
+</Style>
+<Style TargetType="Button">
+    <Setter Property="Background" Value="#FF73D3FF"></Setter>
+    <Setter Property="FontFamily" Value="Calibri"></Setter>
+    <Setter Property="Foreground" Value="Brown"></Setter>
+    <Setter Property="FontSize" Value="18"/>
+    <Setter Property="Height" Value="40"/>
+    <Setter Property="Width" Value="160"/>
+    <Setter Property="Margin" Value="5"/>
+</Style>
+<Style TargetType="ComboBox">
+    <Setter Property="Background" Value="#FF86E871"></Setter>
+    <Setter Property="FontFamily" Value="Calibri"></Setter>
+    <Setter Property="Foreground" Value="Brown"></Setter>
+    <Setter Property="FontSize" Value="18"/>
+    <Setter Property="Height" Value="50"/>
+    <Setter Property="Width" Value="250"/>
+    <Setter Property="VerticalContentAlignment" Value="Center"/>
+</Style>
+<Style TargetType="TextBox">
+    <Setter Property="Background" Value="#FF86E871"></Setter>
+    <Setter Property="FontFamily" Value="Calibri"></Setter>
+    <Setter Property="Foreground" Value="Brown"></Setter>
+    <Setter Property="FontSize" Value="18"/>
+    <Setter Property="Height" Value="50"/>
+    <Setter Property="Width" Value="250"/>
+    <Setter Property="VerticalContentAlignment" Value="Center"/>
+</Style>
+<Style TargetType="Label">
+    <Setter Property="FontFamily" Value="Comic Sans MS"></Setter>
+    <Setter Property="Foreground" Value="Brown"></Setter>
+    <Setter Property="FontSize" Value="18"/>
+    <Setter Property="VerticalAlignment" Value="Center"/>
+    <Setter Property="HorizontalAlignment" Value="Right"/>
+    <Setter Property="Margin" Value="10"/>
+</Style>
+<Style TargetType="PasswordBox">
+    <Setter Property="Background" Value="#FF86E871"></Setter>
+    <Setter Property="FontFamily" Value="Calibri"></Setter>
+    <Setter Property="Foreground" Value="Brown"></Setter>
+    <Setter Property="FontSize" Value="18"/>
+    <Setter Property="Height" Value="50"/>
+    <Setter Property="Width" Value="250"/>
+    <Setter Property="VerticalContentAlignment" Value="Center"/>
+</Style>
